@@ -1,0 +1,55 @@
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 5px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameContainer {
+    text-align: center;
+    margin-top: 160px;
+    font-size: 30px;
+}
+
+#cellContainer {
+    display: grid;
+    color: greenyellow;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#gameName {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 80;
+}
+
+#rules {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 25;
+    display: flex;
+}
+
+#buttonInfo {
+    text-align: center;
+    font-style: bold;
+    margin-top: 70px;
+    font-size: 15px;
+};
+
+.gameButton {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    font-family: monospace;
+    color: greenyellow;
+    background-color: black;
+}
